@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "Abdulrhman Sayed ALi",
