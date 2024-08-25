@@ -6,7 +6,7 @@ const convertButton = document.getElementById("convert-button");
 const editorContext = editorCanvas.getContext("2d");
 const resultContext = resultCanvas.getContext("2d");
 const colorThief = new ColorThief();
-
+const container = document.querySelector(".container")
 const ImagesCount = 420;
 const ImagesFolderCount = "./app_images_minecraft_16";
 const pixle_size = 16;
@@ -14,6 +14,8 @@ const IconPixles = [];
 
 const loadIcons = (index = 1) => {
   if (index > ImagesCount) {
+    //show page content when finished loading
+    container.style.visibility = "visible";
     return;
   }
 

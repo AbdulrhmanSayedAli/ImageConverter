@@ -16,6 +16,7 @@ input[type="file"] {
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  visibility: hidden;
 }
 
 .canvas-container {

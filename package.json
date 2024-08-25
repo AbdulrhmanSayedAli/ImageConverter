@@ -1,0 +1,16 @@
+{
+  "name": "imageconverter",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "Abdulrhman Sayed ALi",
+  "license": "MIT",
+  "description": "Image Converter is a web application that transforms images into larger composite images made up of smaller icons. You can choose from a variety of icon sets such as app icons, emojis, Minecraft blocks, and more. The conversion process happens in the background using a Service Worker, ensuring a smooth and efficient user experience without affecting the main thread.",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "prettier": "^3.3.3"
+  }
+}
