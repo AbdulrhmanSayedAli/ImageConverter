@@ -67,7 +67,7 @@ const redraw = (row) => {
   self.clients.matchAll().then((clients) => {
     clients.forEach((client) => {
       client.postMessage({
-        type: "process-image",
+        type: 'process-image',
         resultImageDataArray: resultImageDataArray,
         width: imageData.width,
         height: imageData.height,
@@ -78,9 +78,8 @@ const redraw = (row) => {
   });
 };
 
-self.addEventListener("message", (event) => {
-  if (event.data && event.data.type === "process-image") {
-
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'process-image') {
     imageData = event.data.imageData;
     IconPixles = event.data.IconPixles;
     pixle_size = event.data.pixle_size;
