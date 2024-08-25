@@ -1,4 +1,4 @@
-input[type="file"] {
+input[type='file'] {
   display: none;
 }
 
@@ -16,6 +16,7 @@ input[type="file"] {
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  visibility: hidden;
 }
 
 .canvas-container {
