@@ -1,0 +1,54 @@
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-picker {
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.canvas-container {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  visibility: hidden;
+  position: absolute;
+}
+
+.canvas-container > button {
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#canvas-editor {
+  width: 500px;
+  height: 500px;
+}
+
+#canvas-result {
+  width: 500px;
+  height: 500px;
+}
+
+.blurred {
+  filter: blur(20px);
+}
+
+body {
+  background-color: rgb(255, 219, 219);
+}
